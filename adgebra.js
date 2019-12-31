@@ -1,0 +1,12 @@
+var domain = (window.location != window.parent.location)? document.referrer : document.location.href;
+var scpt=document.createElement(&quot;script&quot;);
+var GetAttribute = &quot;afpftpPixel_&quot;+(Math.floor((Math.random() * 500) + 1))+&quot;_&quot;+Date.now() ;
+scpt.src=&quot;//adgebra.co.in/afpf/GetAfpftpJs?parentAttribute=&quot;+GetAttribute;
+scpt.id=GetAttribute;
+scpt.setAttribute(&quot;data-pubid&quot;,&quot;602&quot;);
+scpt.setAttribute(&quot;data-slotId&quot;,&quot;1&quot;);
+scpt.setAttribute(&quot;data-templateId&quot;,&quot;63&quot;);
+scpt.setAttribute(&quot;data-accessMode&quot;,&quot;1&quot;);
+scpt.setAttribute(&quot;data-domain&quot;,domain);
+scpt.setAttribute(&quot;data-divId&quot;,&quot;div_6320171207101046&quot;);
+document.getElementById(&quot;div_6320171207101046&quot;).appendChild(scpt);
