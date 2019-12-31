@@ -1,0 +1,27 @@
+.layout-content{position:relative;overflow:hidden;padding:0 3px;margin:0 auto}
+#random-post-container{width:100%;position:relative;max-width:901px;background:#fff;padding:2px;max-height:450px;height:100%;border-radius:3px;overflow:hidden;margin:10px auto}
+#featured .feat-column1{float:left;width:100%;height:450px;box-sizing:border-box}
+.bungkus-related{padding:0;margin:0;position:relative}
+ul.bungkus-related .content{float:left;width:55%;height:100%;box-sizing:border-box;overflow:hidden;position:relative}
+ul.bungkus-related li.content:after{content:no-close-quote;position:absolute;left:0;bottom:0;width:100%;height:150px;background:url( data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAACXCAYAAADUKjHXAAAABHNCSVQICAgIfAhkiAAAAC1JREFUKJFjYIACRibyCSbyuGgsYiXwixErSzuCeXAopiJBejiTHquUJCTSCAApNwIpR17mugAAAABJRU5ErkJggg==) repeat-x;opacity:.5;background-size:100% 100%;overflow:hidden}
+ul.bungkus-related .random-grup{float:right;width:45%;height:100%;background:#fff;padding:2px;box-sizing:border-box;position:relative;overflow-y:hidden;max-height:470px}
+ul.bungkus-related .random-grup:hover{overflow-y:auto}
+ul.bungkus-related .content{float:left;width:55%;max-height:25%;box-sizing:border-box;overflow:hidden;position:relative;height:100%}
+ul.bungkus-related .content .gambar img{width:100%;height:150px}
+ul.bungkus-related .content .tulisan{position:absolute;left:0;bottom:0;width:100%;padding:5px;z-index:2;box-sizing:border-box;font-size:17px;color:white;line-height:1.4em}
+ul.bungkus-related .content .tulisan a{color:$(main.color);font-weight:700;opacity:0.9}
+ul.bungkus-related .content .tulisan .random-desk{font-size:13px}
+ul.bungkus-related .content .post-tag{position:absolute;top:-5px;left:0px;background-color:#299680;color:#000;font-weight:400;z-index:2;height:22px;line-height:25px;padding:0 4px;font-size:12.5px}
+ul.bungkus-related .content .post-tag a{color:white}
+ul.bungkus-related .content .post-tag a:nth-child(n+2),ul.bungkus-related .random-grup .content .post-tag{display:none}
+ul.bungkus-related .random-grup .content{display:block;width:100%;float:right;margin:0 0 5px;padding:0 0 5px;border-bottom:1px solid #bfbfbf;height:auto;position:relative}
+ul.bungkus-related .random-grup li.content:after{content:none}
+ul.bungkus-related .random-grup .content .gambar{width:30%;height:70px;position:absolute;overflow:hidden;left:0;top:-12px;bottom:0;margin:auto;border:3px solid rgba(255,255,255,0.79);border-radius:3px}
+ul.bungkus-related .random-grup .content .gambar img{width:100%;height:100%;display:table-cell;vertical-align:top;overflow:hidden}
+ul.bungkus-related .random-grup .content .tulisan{display:table-cell;padding-right:5px;position:relative;float:right;margin:0;padding-top:0;font-size:12.8px;width:69%}
+ul.bungkus-related .random-grup .content .random-desk{font-size:10px}
+@media screen and (max-width:500px){#random-post-container{overflow:auto}ul.bungkus-related .content{width:100%;float:none}ul.bungkus-related .content .gambar img{height:100%}ul.bungkus-related .random-grup{width:100%;float:none;overflow:hidden!important}}
+
+
+.leftad {clear: left; float: left;  margin-left: 1.5em;}
+.rightad {clear: right;  float: right; margin-right: 1.5em; }
