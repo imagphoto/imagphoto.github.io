@@ -1,21 +1,3 @@
-<![CDATA[/
------------------------------------------------
-Blogger Template Style
-Name:        Easy Mag
-Author :     http://www.soratemplates.com
-License:     Free Version
------------------------------------------------ */
-
-/* Variable definitions
------------------------
-<Variable name="keycolor" description="Main Color" type="color" default="#1e87f0" value="#274e13"/>
-<Variable name="body.background" description="Background" type="background" color="#f0f0f0" default="$(color) url(http://2.bp.blogspot.com/-ReAMfeZ3V68/Vs8X1mFeG6I/AAAAAAAADHU/0uaR6bxj7hU/s1600-r/bg2.png) repeat scroll top left" value="$(color) url(http://2.bp.blogspot.com/-ReAMfeZ3V68/Vs8X1mFeG6I/AAAAAAAADHU/0uaR6bxj7hU/s1600-r/bg2.png) repeat scroll top left"/>
-
-<Variable name="main.color" description="Main Theme Color" type="color" default="#e74c3c" value="#0b7188"/>
-<Variable name="main.dark.color" description="Main Dark Color" type="color" default="#222222" value="#000000"/>
-<Variable name="main.dark.lite.color" description="Main Dark Lite Color" type="color" default="#333333" value="#0b7188"/>
------------------------
-*/
 /* Reset and More */
 a,abbr,acronym,address,applet,b,big,blockquote,body,caption,center,cite,code,dd,del,dfn,div,dl,dt,em,fieldset,font,form,h1,h2,h3,h4,h5,h6,html,i,iframe,img,ins,kbd,label,legend,li,object,p,pre,q,s,samp,small,span,strike,strong,sub,sup,table,tbody,td,tfoot,th,thead,tr,tt,u,ul,var{padding:0;border:0;outline:0;vertical-align:baseline;background:0 0}
 ins{text-decoration:underline}
@@ -796,7 +778,3 @@ margin:5px;
  width : 300px;
 margin:5px;
 }
-
-
-
-]]>
