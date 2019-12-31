@@ -1,0 +1,5 @@
+/*-------- flippy   ----------*/
+#flippy button,#wrap{margin:2px auto}#flippy,#wrap{text-align:center}#flippanel,#wrap br{display:none}#flippy button,.btn{transition:all .3s ease-out;text-transform:uppercase}.btn,.btn i{font-family:Latha,Georgia,Arial,Helvetica,sans-serif}#flippy button{cursor:pointer;background-color:#fff;color:#000;padding:5px 8px!important;border-radius:20px;font-size:14px}#flippy button:focus,#flippy button:hover{outline:0;opacity:1;color:#cc2900}.btn,.btn.down{opacity:.7}#flippanel{text-align:left;background:#fafafa;border:none;padding:0}#flippanel img,.btn,.btn.down{background:#fff}#flippanel img{margin:4px auto}.btn{display:inline-block;position:relative;text-decoration:none;font-weight:700;padding:10px 20px;margin:0 3px;color:#fff;border-radius:10px}.btn.down:hover,.btn:hover{opacity:.9}.btn.down:active,.btn:active{color:#09f;opacity:1}a.btn,a.btn:active,a.btn:hover{color:#0f9;border-radius:10px}.btn i{margin-left:10px;font-weight:400}
+.addds  {width: 336px; margin: 0 auto !important; }
+#addds {width: 336px; margin: 0 auto !important; }
+#ady {width: 728px; margin: 0 auto !important; }
